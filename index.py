@@ -18,7 +18,7 @@ def predict():
         data['Age'], data['Gender'],
         data['ParentalEducation'], data['StudyTimeWeeklyCategory'], 
         data['Absences'], data['Tutoring'], 
-        data['ParentalSupport'], data['ExtracurricularCategory'], data['Year Level'], data['Subject'], data['Previous Grades']
+        data['ParentalSupport'], data['ExtraCurricularCategory'], data['Year Level'], data['Subject'], data['Previous Grades']
     ]
     prediction = model.predict([input_features])  # Predict using your model
     grade_classes = {
